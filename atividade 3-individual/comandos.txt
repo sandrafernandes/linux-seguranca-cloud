@@ -1,0 +1,31 @@
+Para Instalar nginx:
+sudo apt install nginx -y
+
+Para verificar status do nginx:
+systemctl status nginx
+
+
+Para criar estruturas de diretórios:
+mkdir -p ~/linux-seguranca-cloud/topico-03/atividade-individual/site
+mkdir -p ~/linux-seguranca-cloud/topico-03/atividade-individual/evidencias
+
+mkdir -p ~/linux-seguranca-cloud/topico-03/atividade-individual/site
+mkdir -p ~/linux-seguranca-cloud/topico-03/atividade-individual/evidencias
+
+Para cria Ficheiros:
+touch ~/linux-seguranca-cloud/topico-03/atividade-individual/comandos.txt
+touch ~/linux-seguranca-cloud/topico-03/atividade-individual/publicacao.md
+touch ~/linux-seguranca-cloud/topico-03/atividade-individual/validacao.md
+touch ~/linux-seguranca-cloud/topico-03/atividade-individual/README.md
+
+Para editar cada ficheiro:
+Nano
+
+Para publicar página :
+sudo cp ~/linux-seguranca-cloud/topico-03/atividade-individual/site/index.html /var/www/html/index.html
+
+Para validar se está publicado:
+curl http://localhost
+
+Sudo hostname -I
+
