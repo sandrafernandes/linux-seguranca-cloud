@@ -1,0 +1,17 @@
+pwd
+Mostra o diretorio atual.
+
+whoami
+Mostra o utilizador atual.
+
+hostname
+Mostra o nome da maquina.
+
+uname -a
+Mostra informcoes do sistema Linux.
+
+ls
+Lista ficheiros e diretorios.
+
+date
+Mostra a data e hora do sistema.
