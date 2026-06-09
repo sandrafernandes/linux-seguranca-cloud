@@ -1,0 +1,16 @@
+whoami
+Mostra o utilizador atual.
+id
+Mostra o identificador do utilizador e grupos associados.
+groups
+Mostra os grupos do utilizador.
+mkdir
+Cria diretorios.
+touch
+Cria ficheiros vazios.
+ls -l
+Lista ficheiros com detalhes e permissoes.
+chmod
+Altera permissoes de ficheiros.
+./script.sh
+Executa o script
