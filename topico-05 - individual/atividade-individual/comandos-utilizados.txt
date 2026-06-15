@@ -1,0 +1,18 @@
+uptime
+free -h
+df -h
+systemctl status nginx
+journalctl -n 20
+sudo tail -n 20 /var/log/nginx/access.log
+sudo tail -n 20 /var/log/nginx/error.log
+
+mkdir ~/backup-topico05
+cp /var/www/html/index.html ~/backup-topico05/
+
+mkdir ~/teste-recuperacao
+cp ~/backup-topico05/index.html ~/teste-recuperacao/
+
+ls -l ~/backup-topico05
+ls -l ~/teste-recuperacao
+ls -l /etc/nginx
+ls -l /var/log/nginx
