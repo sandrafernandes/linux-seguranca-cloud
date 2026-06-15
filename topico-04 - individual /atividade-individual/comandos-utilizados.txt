@@ -1,0 +1,96 @@
+# Comandos Utilizados - Tópico 04
+
+## Nível 1 - Essencial
+
+Comando:
+systemctl status nginx
+Finalidade:
+Verificar se o serviço Nginx está ativo.
+
+Comando:
+ss -tuln
+Finalidade:
+Identificar portas abertas e serviços em escuta.
+
+Comando:
+hostname -I
+Finalidade:
+Obter o endereço IP do servidor.
+
+Comando:
+curl localhost
+Finalidade:
+Validar localmente o acesso ao serviço web.
+
+--------------------------------------------------
+
+## Nível 2 - Intermédio
+
+Comando:
+sudo ufw status
+Finalidade:
+Verificar o estado da firewall.
+
+Comando:
+sudo ufw allow 22/tcp
+Finalidade:
+Permitir acesso SSH.
+
+Comando:
+sudo ufw allow 80/tcp
+Finalidade:
+Permitir acesso HTTP.
+
+Comando:
+sudo ufw enable
+Finalidade:
+Ativar a firewall UFW.
+
+Comando:
+sudo ufw status verbose
+Finalidade:
+Verificar as regras configuradas na firewall.
+
+Comando:
+curl localhost
+Finalidade:
+Confirmar que o serviço web continua acessível após ativar a firewall.
+
+--------------------------------------------------
+
+## Nível 3 - Avançado
+
+Comando:
+sudo apt update
+Finalidade:
+Atualizar a lista de pacotes do sistema.
+
+Comando:
+systemctl list-units --type=service --state=running
+Finalidade:
+Listar os serviços ativos.
+
+Comando:
+ls -l /var/www/html
+Finalidade:
+Verificar permissões dos ficheiros publicados.
+
+Comando:
+sudo tail /var/log/nginx/access.log
+Finalidade:
+Consultar os acessos recentes ao serviço web.
+
+Comando:
+sudo tail /var/log/nginx/error.log
+Finalidade:
+Consultar erros registados pelo Nginx.
+
+Comando:
+whoami
+Finalidade:
+Identificar o utilizador atualmente autenticado.
+
+Comando:
+systemctl status nginx
+Finalidade:
+Confirmar novamente que o serviço web está ativo.
